@@ -100,13 +100,13 @@
    "motion": "themes/goth-romantic-motion.webp"
   },
   {
-   "id": "goth-witchy",
+   "id": "goth-spellbound",
    "theme": "Goth",
-   "name": "Witchy / occult",
-   "desc": "Charcoal and moss with silver, old printed type, ☽ marks. Medium draws the eight moon phases (tonight's is marked). Full has two scenes: Green magic (Agatha All Along: green and purple swirls, rising dust, sparkles, a moon crossing the sky through its phases) or Haunted wood (a moon in fog, a black cat, crows).",
-   "dark": "themes/goth-witchy-dark.webp",
-   "light": "themes/goth-witchy-light.webp",
-   "motion": "themes/goth-witchy-motion.webp"
+   "name": "Spellbound",
+   "desc": "Scene · Haunted wood: A pale moon glowing through drifting fog, a small black cat with glowing eyes on the hillside, and crows flying slowly across.",
+   "dark": "themes/goth-spellbound-dark.webp",
+   "light": "themes/goth-spellbound-light.webp",
+   "motion": "themes/goth-spellbound-motion.webp"
   }
  ]
 }
