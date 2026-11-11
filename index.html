@@ -7,11 +7,12 @@
 <meta name="description" content="A click-through tour of ARCA, a dashboard for keeping track of every project folder. Screenshots with made-up data.">
 <style>
   :root {
-    --ground: #0e0d13; --bar: #17151f; --ink: #ecebf3; --muted: #a8a4b8; --line: #2e2a3d; --accent: #b48cff; --spot: rgb(180 140 255 / .28);
+    --ground: #0e0d13; --bar: #17151f; --ink: #ecebf3; --muted: #a8a4b8; --line: #2e2a3d; --accent: #b48cff; --on-accent: #120d1c; --spot: rgb(180 140 255 / .28);
     color-scheme: dark;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--ground); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--accent); }
   header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bar); border-bottom: 1px solid var(--line); }
   .bar { max-width: 1440px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
   .brand { font-weight: 700; letter-spacing: .06em; }
@@ -20,8 +21,9 @@
   .where h1 { font-size: 16px; margin: 0; text-wrap: balance; }
   .where p { margin: 0; color: var(--muted); font-size: 13.5px; }
   .nav { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
-  button, select { font: inherit; font-size: 13.5px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
-  button:hover, select:hover { border-color: var(--accent); }
+  button, select, .navlink { font: inherit; font-size: 13.5px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; text-decoration: none; }
+  button:hover, select:hover, .navlink:hover { border-color: var(--accent); }
+  button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   select { background: var(--bar); }
   .count { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; min-width: 4.5em; text-align: center; }
@@ -32,7 +34,15 @@
   .spot { position: absolute; border: 0; padding: 0; border-radius: 6px; background: transparent; cursor: pointer; }
   .spot:hover, .spot:focus-visible { background: var(--spot); box-shadow: 0 0 0 2px var(--accent); outline: none; }
   .stage.flash .spot { background: var(--spot); box-shadow: 0 0 0 2px var(--accent); transition: background .15s; }
+  .num { position: absolute; left: -7px; top: -7px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 99px; background: var(--accent); color: var(--on-accent);
+    font: 700 11.5px/20px system-ui, sans-serif; text-align: center; font-variant-numeric: tabular-nums; box-shadow: 0 1px 4px rgb(0 0 0 / .5); pointer-events: none; }
+  .stage.nonums .num { display: none; }
   .hint { color: var(--muted); font-size: 13px; margin: 10px 0 0; line-height: 1.5; }
+  kbd { font: 12px ui-monospace, monospace; border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; padding: 0; list-style: none; }
+  .legend button { display: inline-flex; gap: 6px; align-items: center; padding: 3px 10px 3px 4px; font-size: 13px; border-radius: 99px; }
+  .legend b { min-width: 20px; height: 20px; padding: 0 5px; border-radius: 99px; background: var(--accent); color: var(--on-accent); font-size: 11.5px; line-height: 20px; text-align: center; font-variant-numeric: tabular-nums; }
+  .typed { position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--accent); color: var(--on-accent); font-weight: 700; border-radius: 10px; padding: 6px 12px; }
   @media (prefers-reduced-motion: reduce) { .stage.flash .spot { transition: none; } }
 </style>
 </head>
@@ -46,42 +56,66 @@
       <span class="count" id="count"></span>
       <button type="button" id="next" aria-label="Next screen">→</button>
       <select id="pick" aria-label="Go to a screen"></select>
+      <button type="button" id="nums" aria-pressed="true" title="Show or hide the numbers on clickable parts">Numbers</button>
+      <a class="navlink" href="themes.html">Themes</a>
     </div>
   </div>
-  <p class="note">A work in progress, shown as screenshots with made-up projects and data. Click the highlighted parts of each screen to move around, or use the arrows.</p>
+  <p class="note">A work in progress, shown as screenshots with made-up projects and data. The screens follow the Map's sections in order.</p>
 </header>
 <main>
   <div class="stage" id="stage"><img id="shot" alt=""></div>
-  <p class="hint">Click anywhere else on the screen to see what's clickable. Arrow keys move between screens.</p>
+  <p class="hint">Click a numbered part, or type its number, to go where it leads. <kbd>←</kbd> <kbd>→</kbd> move between screens. Click anywhere else to see what's clickable.</p>
+  <ul class="legend" id="legend" aria-label="Clickable parts on this screen"></ul>
 </main>
+<div class="typed" id="typed" hidden aria-live="polite"></div>
 <script>
   (async () => {
-    const tour = await (await fetch("tour.json")).json(), S = tour.screens, ids = S.map(s => s.id);
+    const tour = await (await fetch("tour.json")).json(), S = tour.screens, ids = S.map(s => s.id), titleOf = id => S.find(x => x.id === id)?.title || id;
     const $ = id => document.getElementById(id), stage = $("stage"), shot = $("shot");
     $("pick").innerHTML = S.map((s, i) => `<option value="${s.id}">${i + 1}. ${s.title}</option>`).join("");
-    let cur = 0;
+    let cur = 0, spots = [];
+    const go = to => show(ids.indexOf(to));
     function show(i, push = true) {
       cur = (i + S.length) % S.length; const s = S[cur];
       shot.src = s.image; shot.alt = `${s.title}: ${s.caption}`; shot.width = tour.width; shot.height = s.height;
       $("title").textContent = s.title; $("caption").textContent = s.caption; $("count").textContent = `${cur + 1} / ${S.length}`; $("pick").value = s.id;
       stage.querySelectorAll(".spot").forEach(b => b.remove());
-      for (const h of s.hotspots) {
-        const b = document.createElement("button"), to = S.find(x => x.id === h.to);
-        b.className = "spot"; b.type = "button"; b.dataset.to = h.to; b.setAttribute("aria-label", `Go to ${to ? to.title : h.to}`);
+      spots = [...s.hotspots].sort((a, b) => (a.y - b.y) || (a.x - b.x));   // numbered in reading order
+      spots.forEach((h, n) => {
+        const b = document.createElement("button");
+        b.className = "spot"; b.type = "button"; b.dataset.to = h.to; b.setAttribute("aria-label", `${n + 1}: go to ${titleOf(h.to)}`);
         Object.assign(b.style, { left: h.x + "%", top: h.y + "%", width: h.w + "%", height: h.h + "%" });
+        b.innerHTML = `<span class="num" aria-hidden="true">${n + 1}</span>`;
         stage.append(b);
-      }
-      if (push) history.replaceState(null, "", "#" + s.id);
+      });
+      $("legend").innerHTML = spots.map((h, n) => `<li><button type="button" data-to="${h.to}"><b>${n + 1}</b>${titleOf(h.to)}</button></li>`).join("");
+      if (push && location.hash !== "#" + s.id) history.pushState(null, "", "#" + s.id);   // so back/forward step through screens
       window.scrollTo(0, 0);
     }
     stage.addEventListener("click", e => {
       const b = e.target.closest(".spot");
-      if (b) return show(ids.indexOf(b.dataset.to));
+      if (b) return go(b.dataset.to);
       stage.classList.add("flash"); setTimeout(() => stage.classList.remove("flash"), 700);
     });
+    $("legend").addEventListener("click", e => { const b = e.target.closest("[data-to]"); if (b) go(b.dataset.to); });
     $("prev").onclick = () => show(cur - 1); $("next").onclick = () => show(cur + 1);
-    $("pick").onchange = e => show(ids.indexOf(e.target.value));
-    addEventListener("keydown", e => { if (e.target.closest("select")) return; if (e.key === "ArrowRight") show(cur + 1); if (e.key === "ArrowLeft") show(cur - 1); });
+    $("pick").onchange = e => go(e.target.value);
+    const setNums = on => { stage.classList.toggle("nonums", !on); $("nums").setAttribute("aria-pressed", String(on)); try { localStorage.setItem("arca.nums", on ? "1" : "0"); } catch {} };
+    let numsOn = true; try { numsOn = localStorage.getItem("arca.nums") !== "0"; } catch {}
+    setNums(numsOn); $("nums").onclick = () => setNums(stage.classList.contains("nonums"));
+    // type a hotspot's number: one digit goes at once unless a longer number could follow; two digits within a moment
+    let typed = "", timer = null;
+    const fire = () => { clearTimeout(timer); const n = +typed; typed = ""; $("typed").hidden = true; if (spots[n - 1]) go(spots[n - 1].to); };
+    addEventListener("keydown", e => {
+      if (e.target.closest("select, input, textarea") || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (e.key === "ArrowRight") return show(cur + 1);
+      if (e.key === "ArrowLeft") return show(cur - 1);
+      if (/^[0-9]$/.test(e.key)) {
+        typed += e.key; $("typed").textContent = typed; $("typed").hidden = false; clearTimeout(timer);
+        if (+typed * 10 > spots.length) fire(); else timer = setTimeout(fire, 700);
+      }
+    });
+    addEventListener("hashchange", () => { const i = ids.indexOf(location.hash.slice(1)); if (i >= 0 && i !== cur) show(i, false); });   // links and back/forward
     S.forEach(s => { const im = new Image(); im.src = s.image; });   // preload, so moving between screens is instant
     show(Math.max(0, ids.indexOf(location.hash.slice(1))), false);
   })();

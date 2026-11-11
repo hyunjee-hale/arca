@@ -1,0 +1,112 @@
+{
+ "looks": [
+  {
+   "id": "space-nebula",
+   "theme": "Space",
+   "name": "Deep nebula",
+   "desc": "Indigo-black and lavender mist, violet and teal glow, glass panels, a slow drifting star field and the occasional meteor at full.",
+   "dark": "themes/space-nebula-dark.webp",
+   "light": "themes/space-nebula-light.webp",
+   "motion": "themes/space-nebula-motion.webp"
+  },
+  {
+   "id": "space-nasa",
+   "theme": "Space",
+   "name": "Retro NASA",
+   "desc": "1970s mission control: cream paper or navy console, safety orange, heavy black type, square corners, a red-gold-blue livery stripe on graph paper. At full: blinking console lights, beveled keys, a mission clock and a big poster-style planet.",
+   "dark": "themes/space-nasa-dark.webp",
+   "light": "themes/space-nasa-light.webp",
+   "motion": "themes/space-nasa-motion.webp"
+  },
+  {
+   "id": "space-hud",
+   "theme": "Space",
+   "name": "Sci-fi HUD",
+   "desc": "Starship heads-up display: deep teal-black or pale glass, cyan lines with amber focus, corner brackets on every panel, uppercase labels in a terminal font. At full: scan lines and a slowly sweeping radar.",
+   "dark": "themes/space-hud-dark.webp",
+   "light": "themes/space-hud-light.webp",
+   "motion": "themes/space-hud-motion.webp"
+  },
+  {
+   "id": "space-cosmos",
+   "theme": "Space",
+   "name": "Minimal cosmos",
+   "desc": "Quiet and flat: dark navy or soft white, one starlight-gold accent, light geometric type, no glass or glow. Medium adds still stars and four constellations in fine gold line (Orion, the Big Dipper, Cassiopeia, Cygnus). Full adds Leo, Lyra and Scorpius, the brightest stars twinkle slowly, and the whole sky turns once every 6 minutes.",
+   "dark": "themes/space-cosmos-dark.webp",
+   "light": "themes/space-cosmos-light.webp",
+   "motion": "themes/space-cosmos-motion.webp"
+  },
+  {
+   "id": "cyber-neon",
+   "theme": "Cyberpunk",
+   "name": "Neon magenta/cyan",
+   "desc": "Night city: near-black violet or pale pink-white, hot pink and electric cyan, neon corner ticks, a pink-to-cyan stripe and buttons, a slight color split on big headings. At full: rain and a city skyline with flickering windows.",
+   "dark": "themes/cyber-neon-dark.webp",
+   "light": "themes/cyber-neon-light.webp",
+   "motion": "themes/cyber-neon-motion.webp"
+  },
+  {
+   "id": "cyber-amber",
+   "theme": "Cyberpunk",
+   "name": "Amber terminal",
+   "desc": "An old CRT: amber on brown-black (or a printout on banded paper), all-monospace headings and labels, a soft phosphor glow on big headings. At full: a rolling screen bar, a faint terminal log scrolling behind the page, and a blinking cursor.",
+   "dark": "themes/cyber-amber-dark.webp",
+   "light": "themes/cyber-amber-light.webp",
+   "motion": "themes/cyber-amber-motion.webp"
+  },
+  {
+   "id": "cyber-acid",
+   "theme": "Cyberpunk",
+   "name": "Acid green hacker",
+   "desc": "The Matrix: black and code green (or dark green on pale green-white), lowercase terminal type, a soft green glow on big headings. Medium shows faint still columns of code; full makes them fall as digital rain.",
+   "dark": "themes/cyber-acid-dark.webp",
+   "light": "themes/cyber-acid-light.webp",
+   "motion": "themes/cyber-acid-motion.webp"
+  },
+  {
+   "id": "cyber-chrome",
+   "theme": "Cyberpunk",
+   "name": "Chrome + neon",
+   "desc": "Brushed-metal panels with corners cut on the diagonal, wide uppercase type, and one neon for edges, buttons and glow: ultraviolet, Tron cyan, Ares red or signal orange (the Color picker). Medium adds a still light streak. Full is Tron-inspired: a glowing grid floor in perspective, two light cycles (your neon and a rival color) racing and turning with light trails, and light pulses running along panel edges.",
+   "dark": "themes/cyber-chrome-dark.webp",
+   "light": "themes/cyber-chrome-light.webp",
+   "motion": "themes/cyber-chrome-motion.webp"
+  },
+  {
+   "id": "goth-victorian",
+   "theme": "Goth",
+   "name": "Victorian ornate",
+   "desc": "Black and gold, or parchment and crimson. Blackletter page titles, Cinzel capitals, gold filigree in panel corners, a double-rule stripe and a flocked velvet skull damask (a skull crowned by a layered rose, lobed acanthus plumes, roses and vine scrolls, mirrored like a real damask), with ⚜ heading marks. At full: double borders and two wavering candle glows.",
+   "dark": "themes/goth-victorian-dark.webp",
+   "light": "themes/goth-victorian-light.webp",
+   "motion": "themes/goth-victorian-motion.webp"
+  },
+  {
+   "id": "goth-minblack",
+   "theme": "Goth",
+   "name": "Minimal black",
+   "desc": "Ink black or bone white, one blood-red accent, a sharp Bodoni serif, square corners, no shadows, lots of air. Medium adds film grain. Full (Blood drip): beaded drips hang from the top edge, teardrops fall and splash on the bottom, slow fog drifts, and the red margin thread beats like a heart.",
+   "dark": "themes/goth-minblack-dark.webp",
+   "light": "themes/goth-minblack-light.webp",
+   "motion": "themes/goth-minblack-motion.webp"
+  },
+  {
+   "id": "goth-romantic",
+   "theme": "Goth",
+   "name": "Romantic purple",
+   "desc": "Plum and wine with candlelight gold, velvet-sheen panels, soft round corners, Cormorant serif. Medium adds drapery folds; full adds drifting petals and a candle glow.",
+   "dark": "themes/goth-romantic-dark.webp",
+   "light": "themes/goth-romantic-light.webp",
+   "motion": "themes/goth-romantic-motion.webp"
+  },
+  {
+   "id": "goth-witchy",
+   "theme": "Goth",
+   "name": "Witchy / occult",
+   "desc": "Charcoal and moss with silver, old printed type, ☽ marks. Medium draws the eight moon phases (tonight's is marked). Full has two scenes: Green magic (Agatha All Along: green and purple swirls, rising dust, sparkles, a moon crossing the sky through its phases) or Haunted wood (a moon in fog, a black cat, crows).",
+   "dark": "themes/goth-witchy-dark.webp",
+   "light": "themes/goth-witchy-light.webp",
+   "motion": "themes/goth-witchy-motion.webp"
+  }
+ ]
+}
