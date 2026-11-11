@@ -9,207 +9,163 @@
    "height": 1139,
    "hotspots": [
     {
-     "to": "projects",
-     "x": 26.46,
-     "y": 34.36,
-     "w": 15.28,
-     "h": 13.17
+     "title": "Doom box",
+     "text": "Up to three sections you've chosen to keep an eye on, with their count and status. Click one to open it. Pick them in Settings.",
+     "x": 42.37,
+     "y": 20.71,
+     "w": 17.94,
+     "h": 2.59
     },
     {
-     "to": "today",
-     "x": 42.57,
-     "y": 34.36,
-     "w": 15.28,
-     "h": 13.17
+     "title": "Categories",
+     "text": "Show only Home, Self, Lab or Work projects, or the untagged ones. Counts update as you tag.",
+     "x": 9.03,
+     "y": 20.71,
+     "w": 30.14,
+     "h": 2.59
     },
     {
-     "to": "inbox",
-     "x": 58.68,
-     "y": 34.36,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "repos",
-     "x": 74.79,
-     "y": 34.36,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "goals",
-     "x": 26.46,
-     "y": 48.59,
-     "w": 15.28,
-     "h": 16.04
-    },
-    {
-     "to": "cms",
-     "x": 42.57,
-     "y": 48.59,
-     "w": 15.28,
-     "h": 16.04
-    },
-    {
-     "to": "space",
-     "x": 58.68,
-     "y": 48.59,
-     "w": 15.28,
-     "h": 16.04
-    },
-    {
-     "to": "time",
-     "x": 74.79,
-     "y": 48.59,
-     "w": 15.28,
-     "h": 16.04
-    },
-    {
-     "to": "catalog",
-     "x": 26.46,
-     "y": 65.68,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "digest",
-     "x": 42.57,
-     "y": 65.68,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "captures",
-     "x": 58.68,
-     "y": 65.68,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "library",
-     "x": 74.79,
-     "y": 65.68,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "tokens",
-     "x": 26.46,
-     "y": 79.91,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "kit",
-     "x": 42.57,
-     "y": 79.91,
-     "w": 15.28,
-     "h": 13.17
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 35.53,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 39.39,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 43.25,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 47.12,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 50.98,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 54.84,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 58.7,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 62.57,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 66.43,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 70.29,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 74.16,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 78.02,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 81.88,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 85.75,
-     "w": 14.31,
-     "h": 3.51
-    },
-    {
+     "title": "Display",
+     "text": "Switch the layout (Grid, Map or Classic) and pick a look, its intensity and motion.",
      "to": "display",
      "x": 84.83,
      "y": 0.88,
      "w": 6.14,
      "h": 2.5
+    },
+    {
+     "title": "Notes",
+     "text": "Your own notes on any panel, kept in this browser.",
+     "x": 79.05,
+     "y": 0.99,
+     "w": 4.81,
+     "h": 2.28
+    },
+    {
+     "title": "Projects",
+     "text": "",
+     "to": "projects",
+     "x": 26.46,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Today + reports",
+     "text": "",
+     "to": "today",
+     "x": 42.57,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Inbox",
+     "text": "",
+     "to": "inbox",
+     "x": 58.68,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Repos",
+     "text": "",
+     "to": "repos",
+     "x": 74.79,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Goals",
+     "text": "",
+     "to": "goals",
+     "x": 26.46,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "title": "CMS",
+     "text": "",
+     "to": "cms",
+     "x": 42.57,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "title": "Space",
+     "text": "",
+     "to": "space",
+     "x": 58.68,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "title": "Time",
+     "text": "",
+     "to": "time",
+     "x": 74.79,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "title": "Catalog",
+     "text": "",
+     "to": "catalog",
+     "x": 26.46,
+     "y": 65.68,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Digest",
+     "text": "",
+     "to": "digest",
+     "x": 42.57,
+     "y": 65.68,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Captures",
+     "text": "",
+     "to": "captures",
+     "x": 58.68,
+     "y": 65.68,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Library",
+     "text": "",
+     "to": "library",
+     "x": 74.79,
+     "y": 65.68,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Tokens",
+     "text": "",
+     "to": "tokens",
+     "x": 26.46,
+     "y": 79.91,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "title": "Component kit",
+     "text": "",
+     "to": "kit",
+     "x": 42.57,
+     "y": 79.91,
+     "w": 15.28,
+     "h": 13.17
     }
    ]
   },
@@ -221,20 +177,114 @@
    "height": 2400,
    "hotspots": [
     {
+     "title": "Search + toolbar",
+     "text": "Search box, filters and sort for the project list.",
+     "x": 14.17,
+     "y": 17.74,
+     "w": 15.74,
+     "h": 0.83
+    },
+    {
+     "title": "Tracker tools",
+     "text": "Sweep for new folders, add a folder, export or import CSV, and git sync.",
+     "x": 53.12,
+     "y": 17.74,
+     "w": 13.54,
+     "h": 0.83
+    },
+    {
+     "title": "Filter pills",
+     "text": "Quick filters with counts; amber and red ones flag problems.",
+     "x": 14.17,
+     "y": 32.91,
+     "w": 10.3,
+     "h": 0.83
+    },
+    {
+     "title": "Project list + detail",
+     "text": "One row per project, grouped by area. Click a row to open its detail panel.",
+     "x": 14.17,
+     "y": 39.93,
+     "w": 17.69,
+     "h": 0.83
+    },
+    {
+     "title": "Tree or flat",
+     "text": "Show projects inside other projects nested under them, or as one flat list.",
+     "x": 15.62,
+     "y": 23.66,
+     "w": 3.25,
+     "h": 1.08
+    },
+    {
+     "title": "Status tabs",
+     "text": "Open, active, waiting, unreviewed, paused and done, with how many are in each.",
+     "x": 15.62,
+     "y": 29.2,
+     "w": 4.93,
+     "h": 1.08
+    },
+    {
+     "title": "Search",
+     "text": "Finds projects by name, note, next step, path or to-do.",
+     "x": 15.35,
+     "y": 21.66,
+     "w": 11.37,
+     "h": 1.42
+    },
+    {
+     "title": "Sweep",
+     "text": "Looks through your project folders for new ones and adds them as unreviewed.",
+     "x": 54.31,
+     "y": 23.29,
+     "w": 4.14,
+     "h": 1.08
+    },
+    {
+     "title": "Git sync",
+     "text": "Checks every repo against GitHub: public, private, a fork, or deleted, and what isn't pushed yet.",
+     "x": 54.31,
+     "y": 27.44,
+     "w": 7.04,
+     "h": 1.08
+    },
+    {
+     "title": "Problem pills",
+     "text": "Amber and red pills flag problems, like uncommitted changes or a repo with no remote. Click one to filter.",
+     "x": 36.45,
+     "y": 35.89,
+     "w": 11.74,
+     "h": 1.25
+    },
+    {
+     "title": "A project row",
+     "text": "Name, next step, folder, repo state, to-dos, category, status and when it was last worked on. Click a row to open it.",
      "to": "project",
-     "x": 27.57,
-     "y": 49.99,
-     "w": 63.33,
+     "x": 16.18,
+     "y": 47.54,
+     "w": 74.72,
      "h": 2.96
     },
     {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 16.88,
+     "w": 2.92,
+     "h": 27.33
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 12.84,
      "w": 4.29,
      "h": 1.08
     },
     {
+     "title": "Previous: Component kit",
+     "text": "",
      "to": "kit",
      "x": 73.27,
      "y": 16.07,
@@ -242,272 +292,160 @@
      "h": 1.08
     },
     {
+     "title": "Next: Today + reports",
+     "text": "",
      "to": "today",
      "x": 82.23,
      "y": 16.07,
      "w": 8.75,
      "h": 1.08
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.42,
-     "w": 6.14,
-     "h": 1.19
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 16.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 18.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 20.53,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 22.36,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 24.19,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 26.03,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 27.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 29.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 31.53,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 33.36,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 35.19,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 37.03,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 38.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 40.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 15.03,
-     "w": 14.31,
-     "h": 1.67
     }
    ]
   },
   {
    "id": "project",
    "title": "A project, opened",
-   "caption": "Status, next step, to-dos, links to Jira codes, goals and the catalog, where it lives, and time logged.",
+   "caption": "Everything about one project: what it is, status, next step, to-dos, log, links, where it lives and time logged.",
    "image": "screens/project.png",
    "height": 2400,
    "hotspots": [
     {
+     "title": "Search + toolbar",
+     "text": "Search box, filters and sort for the project list.",
+     "x": 14.17,
+     "y": 17.74,
+     "w": 15.74,
+     "h": 0.83
+    },
+    {
+     "title": "Tracker tools",
+     "text": "Sweep for new folders, add a folder, export or import CSV, and git sync.",
+     "x": 53.12,
+     "y": 17.74,
+     "w": 13.54,
+     "h": 0.83
+    },
+    {
+     "title": "Filter pills",
+     "text": "Quick filters with counts; amber and red ones flag problems.",
+     "x": 14.17,
+     "y": 32.91,
+     "w": 10.3,
+     "h": 0.83
+    },
+    {
+     "title": "Project list + detail",
+     "text": "One row per project, grouped by area. Click a row to open its detail panel.",
+     "x": 14.17,
+     "y": 39.93,
+     "w": 17.69,
+     "h": 0.83
+    },
+    {
+     "title": "What it is",
+     "text": "A one-line summary of the project.",
+     "x": 15.35,
+     "y": 51.54,
+     "w": 42.7,
+     "h": 0.75
+    },
+    {
+     "title": "Status and where it stands",
+     "text": "Active, waiting, paused, unreviewed or done, with a short note on where things stand.",
+     "x": 15.35,
+     "y": 55.5,
+     "w": 8.33,
+     "h": 0.75
+    },
+    {
+     "title": "Next step",
+     "text": "The one small action to start with next time.",
+     "x": 15.35,
+     "y": 58.31,
+     "w": 42.7,
+     "h": 0.75
+    },
+    {
+     "title": "Outstanding",
+     "text": "To-dos. Tick one to mark it done (it goes in the log), or edit or remove it.",
+     "x": 15.35,
+     "y": 61.12,
+     "w": 42.7,
+     "h": 0.75
+    },
+    {
+     "title": "Log",
+     "text": "What happened, newest first: notes, status changes, finished to-dos and time logged. Add a line here.",
+     "x": 15.35,
+     "y": 70.56,
+     "w": 42.7,
+     "h": 0.75
+    },
+    {
+     "title": "Links",
+     "text": "Ties the project to Jira projects, Jira codes, goals and catalog items, so filters across the dashboard can find it.",
+     "x": 59.29,
+     "y": 53.65,
+     "w": 30.5,
+     "h": 0.75
+    },
+    {
+     "title": "Where it lives",
+     "text": "The folder, buttons to open it, and the repo's branch, uncommitted changes and last commit.",
+     "x": 59.29,
+     "y": 62.82,
+     "w": 30.5,
+     "h": 0.75
+    },
+    {
+     "title": "Git sync",
+     "text": "Whether the repo is public, private or a fork on GitHub, and when it was last synced.",
+     "x": 59.29,
+     "y": 69.05,
+     "w": 30.5,
+     "h": 0.75
+    },
+    {
+     "title": "Goals",
+     "text": "The goals this project works toward. Link another here.",
+     "x": 59.29,
+     "y": 78.74,
+     "w": 30.5,
+     "h": 0.75
+    },
+    {
+     "title": "Time",
+     "text": "Time logged on this project, and a form to log more, with an optional work code.",
+     "x": 59.29,
+     "y": 84.05,
+     "w": 30.5,
+     "h": 0.75
+    },
+    {
+     "title": "Close the project",
+     "text": "",
      "to": "projects",
-     "x": 27.57,
-     "y": 49.99,
-     "w": 63.33,
+     "x": 16.18,
+     "y": 47.54,
+     "w": 74.72,
      "h": 2.96
     },
     {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 16.88,
+     "w": 2.92,
+     "h": 27.33
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 12.84,
      "w": 4.29,
      "h": 1.08
-    },
-    {
-     "to": "kit",
-     "x": 73.27,
-     "y": 16.07,
-     "w": 8.4,
-     "h": 1.08
-    },
-    {
-     "to": "today",
-     "x": 82.23,
-     "y": 16.07,
-     "w": 8.75,
-     "h": 1.08
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.42,
-     "w": 6.14,
-     "h": 1.19
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 16.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 18.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 20.53,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 22.36,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 24.19,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 26.03,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 27.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 29.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 31.53,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 33.36,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 35.19,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 37.03,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 38.86,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 40.69,
-     "w": 14.31,
-     "h": 1.67
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 15.03,
-     "w": 14.31,
-     "h": 1.67
     }
    ]
   },
@@ -516,140 +454,114 @@
    "title": "Today + reports",
    "caption": "Today's sessions and the start, mid-day and end-of-day reports.",
    "image": "screens/today.png",
-   "height": 2080,
+   "height": 2036,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 14.81,
-     "w": 4.29,
-     "h": 1.25
+     "title": "Today panel",
+     "text": "Work sessions for a chosen day; day chips pick the day.",
+     "x": 14.17,
+     "y": 20.91,
+     "w": 11.68,
+     "h": 0.98
     },
     {
+     "title": "Plan My Day",
+     "text": "Pick today's tasks, carry unfinished ones into a new day, log time against them, and look back at past plans.",
+     "x": 14.17,
+     "y": 38.1,
+     "w": 11.62,
+     "h": 0.98
+    },
+    {
+     "title": "Day reports",
+     "text": "Start-of-day, mid-day and end-of-day snapshots: what was planned, what popped up, what's left. Save as Markdown or PDF to share.",
+     "x": 14.17,
+     "y": 84.11,
+     "w": 11.83,
+     "h": 0.98
+    },
+    {
+     "title": "Day chips",
+     "text": "Pick a day to see the sessions worked that day. The number is how many projects.",
+     "x": 21.49,
+     "y": 27.88,
+     "w": 7.88,
+     "h": 1.18
+    },
+    {
+     "title": "Sessions",
+     "text": "When each project was worked on that day, and how (a session, a note, changed files).",
+     "x": 15.35,
+     "y": 33.92,
+     "w": 5.83,
+     "h": 1.03
+    },
+    {
+     "title": "Add to today's plan",
+     "text": "Pick from to-dos, next steps, the inbox, goals and Jira codes, or type something new.",
+     "x": 15.35,
+     "y": 58.76,
+     "w": 42.7,
+     "h": 0.88
+    },
+    {
+     "title": "A plan item",
+     "text": "Tick it when it's done. Shows its project, where it came from, links, and time logged against it.",
+     "x": 17.29,
+     "y": 46.61,
+     "w": 9.19,
+     "h": 0.88
+    },
+    {
+     "title": "Log time",
+     "text": "Log time against a plan item; the entry remembers which item it was for.",
+     "x": 59.29,
+     "y": 42.89,
+     "w": 30.5,
+     "h": 0.88
+    },
+    {
+     "title": "Open a report",
+     "text": "A start-of-day, mid-day or end-of-day snapshot: what was planned, what popped up and what's left.",
+     "x": 15.35,
+     "y": 91.57,
+     "w": 8.01,
+     "h": 1.79
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 19.9,
+     "w": 2.92,
+     "h": 32.22
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 15.13,
+     "w": 4.29,
+     "h": 1.28
+    },
+    {
+     "title": "Previous: Projects",
+     "text": "",
      "to": "projects",
      "x": 79.77,
-     "y": 18.54,
+     "y": 18.94,
      "w": 5.79,
-     "h": 1.25
+     "h": 1.28
     },
     {
+     "title": "Next: Inbox",
+     "text": "",
      "to": "inbox",
      "x": 86.12,
-     "y": 18.54,
+     "y": 18.94,
      "w": 4.85,
-     "h": 1.25
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.48,
-     "w": 6.14,
-     "h": 1.37
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 19.45,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 21.57,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 23.68,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 25.8,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 27.92,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 30.03,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 32.15,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 34.26,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 36.38,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 38.49,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 40.61,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 42.72,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 44.84,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 46.95,
-     "w": 14.31,
-     "h": 1.92
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 17.34,
-     "w": 14.31,
-     "h": 1.92
+     "h": 1.28
     }
    ]
   },
@@ -658,140 +570,74 @@
    "title": "Inbox",
    "caption": "Brain-dump items waiting to be sorted.",
    "image": "screens/inbox.png",
-   "height": 1090,
+   "height": 1134,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 28.27,
-     "w": 4.29,
-     "h": 2.39
+     "title": "Inbox banner",
+     "text": "Brain-dump items waiting to be sorted, with sort buttons.",
+     "x": 14.17,
+     "y": 37.53,
+     "w": 12.53,
+     "h": 1.76
     },
     {
+     "title": "Add a thought",
+     "text": "Drop in anything without deciding where it goes. Sort it later.",
+     "x": 15.35,
+     "y": 51.22,
+     "w": 70.8,
+     "h": 3.22
+    },
+    {
+     "title": "An inbox item",
+     "text": "Sort it to a project to-do or note, a goal, the catalog or a work entry, mark it done, or trash it.",
+     "x": 22.29,
+     "y": 62.47,
+     "w": 46.69,
+     "h": 2.12
+    },
+    {
+     "title": "Sort to",
+     "text": "Where the item goes. Items sorted to a project need the project picked.",
+     "x": 24.03,
+     "y": 55.15,
+     "w": 7.08,
+     "h": 2.47
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 35.73,
+     "w": 2.92,
+     "h": 57.85
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 27.17,
+     "w": 4.29,
+     "h": 2.29
+    },
+    {
+     "title": "Previous: Today + reports",
+     "text": "",
      "to": "today",
      "x": 76.63,
-     "y": 35.38,
+     "y": 34.01,
      "w": 8.75,
-     "h": 2.39
+     "h": 2.29
     },
     {
+     "title": "Next: Repos",
+     "text": "",
      "to": "repos",
      "x": 85.93,
-     "y": 35.38,
+     "y": 34.01,
      "w": 5.04,
-     "h": 2.39
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.92,
-     "w": 6.14,
-     "h": 2.61
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 37.12,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 41.16,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 45.2,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 49.23,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 53.27,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 57.31,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 61.34,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 65.38,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 69.42,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 73.45,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 77.49,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 81.53,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 85.56,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 89.6,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 33.09,
-     "w": 14.31,
-     "h": 3.67
+     "h": 2.29
     }
    ]
   },
@@ -800,140 +646,98 @@
    "title": "Repos",
    "caption": "Repo state for every project folder, plus the tab bar's summaries.",
    "image": "screens/repos.png",
-   "height": 1323,
+   "height": 1289,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 23.29,
-     "w": 4.29,
-     "h": 1.97
+     "title": "Tab bar",
+     "text": "Switches between the dashboard's main pages.",
+     "x": 14.17,
+     "y": 33.02,
+     "w": 6.23,
+     "h": 1.55
     },
     {
+     "title": "Git repos",
+     "text": "Every git repo under your folders: origin, branch, changes, ahead/behind, flags and notes.",
+     "x": 14.17,
+     "y": 46.99,
+     "w": 9.0,
+     "h": 1.55
+    },
+    {
+     "title": "Scan repos",
+     "text": "Rescans every git repo under your folders.",
+     "x": 15.35,
+     "y": 54.55,
+     "w": 6.25,
+     "h": 2.02
+    },
+    {
+     "title": "Tidy-up plan",
+     "text": "Writes a script proposing where each repo should live. Nothing moves until you run it.",
+     "x": 22.15,
+     "y": 54.55,
+     "w": 8.59,
+     "h": 2.02
+    },
+    {
+     "title": "Flags",
+     "text": "Problems at a glance: uncommitted changes, files that look like secrets, no remote, nested repos.",
+     "x": 15.35,
+     "y": 63.16,
+     "w": 6.47,
+     "h": 2.33
+    },
+    {
+     "title": "Repo table",
+     "text": "Path, origin, branch, uncommitted changes, ahead and behind, last commit and flags for each repo.",
+     "x": 35.35,
+     "y": 65.95,
+     "w": 14.76,
+     "h": 2.21
+    },
+    {
+     "title": "Repo notes",
+     "text": "A note on a repo, like \"move .env out before pushing\".",
+     "x": 15.76,
+     "y": 73.71,
+     "w": 19.17,
+     "h": 1.24
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 31.43,
+     "w": 2.92,
+     "h": 50.89
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 23.91,
+     "w": 4.29,
+     "h": 2.02
+    },
+    {
+     "title": "Previous: Inbox",
+     "text": "",
      "to": "inbox",
      "x": 80.75,
-     "y": 29.15,
+     "y": 29.92,
      "w": 4.85,
-     "h": 1.97
+     "h": 2.02
     },
     {
+     "title": "Next: Goals",
+     "text": "",
      "to": "goals",
      "x": 86.16,
-     "y": 29.15,
+     "y": 29.92,
      "w": 4.82,
-     "h": 1.97
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.76,
-     "w": 6.14,
-     "h": 2.15
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 30.59,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 33.91,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 37.24,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 40.56,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 43.89,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 47.21,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 50.54,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 53.87,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 57.19,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 60.52,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 63.84,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 67.17,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 70.49,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 73.82,
-     "w": 14.31,
-     "h": 3.02
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 27.26,
-     "w": 14.31,
-     "h": 3.02
+     "h": 2.02
     }
    ]
   },
@@ -945,13 +749,57 @@
    "height": 1135,
    "hotspots": [
     {
+     "title": "Goals",
+     "text": "What you're aiming for, with status, target, why, linked projects and the latest note.",
+     "x": 14.17,
+     "y": 37.5,
+     "w": 6.5,
+     "h": 1.76
+    },
+    {
+     "title": "Add a goal",
+     "text": "A goal with why it matters and a target date.",
+     "x": 15.35,
+     "y": 46.44,
+     "w": 1.25,
+     "h": 1.59
+    },
+    {
+     "title": "A goal",
+     "text": "Status, target date, why it matters, linked projects and the latest note.",
+     "x": 28.1,
+     "y": 57.46,
+     "w": 18.54,
+     "h": 1.98
+    },
+    {
+     "title": "Sync goals",
+     "text": "Pulls goals from the goals project in the CMS. It only reads; nothing changes there.",
+     "x": 28.33,
+     "y": 46.09,
+     "w": 5.76,
+     "h": 2.29
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 35.7,
+     "w": 2.92,
+     "h": 57.8
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 27.15,
      "w": 4.29,
      "h": 2.29
     },
     {
+     "title": "Previous: Repos",
+     "text": "",
      "to": "repos",
      "x": 80.95,
      "y": 33.98,
@@ -959,123 +807,13 @@
      "h": 2.29
     },
     {
+     "title": "Next: CMS",
+     "text": "",
      "to": "cms",
      "x": 86.54,
      "y": 33.98,
      "w": 4.43,
      "h": 2.29
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.88,
-     "w": 6.14,
-     "h": 2.51
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 35.65,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 39.53,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 43.4,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 47.28,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 51.16,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 55.03,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 58.91,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 62.79,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 66.66,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 70.54,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 74.42,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 78.29,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 82.17,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 86.05,
-     "w": 14.31,
-     "h": 3.52
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 31.77,
-     "w": 14.31,
-     "h": 3.52
     }
    ]
   },
@@ -1084,140 +822,74 @@
    "title": "CMS",
    "caption": "CMS servers and projects.",
    "image": "screens/cms.png",
-   "height": 1430,
+   "height": 1397,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 21.55,
-     "w": 4.29,
-     "h": 1.82
+     "title": "CMS",
+     "text": "Your CMS servers and the projects on them, with status and when you last touched each.",
+     "x": 14.17,
+     "y": 30.47,
+     "w": 4.93,
+     "h": 1.43
     },
     {
+     "title": "Check for new exports",
+     "text": "Imports the latest project lists exported from each CMS server.",
+     "x": 15.35,
+     "y": 40.01,
+     "w": 10.32,
+     "h": 1.86
+    },
+    {
+     "title": "A group",
+     "text": "Copies of the same project across servers, kept together with notes and a link to the project folder.",
+     "x": 16.25,
+     "y": 44.52,
+     "w": 8.78,
+     "h": 1.61
+    },
+    {
+     "title": "Projects table",
+     "text": "Every project on each server: status, when you last changed it, its modules and its group.",
+     "x": 17.33,
+     "y": 76.1,
+     "w": 8.58,
+     "h": 1.75
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 29.0,
+     "w": 2.92,
+     "h": 46.96
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 22.06,
+     "w": 4.29,
+     "h": 1.86
+    },
+    {
+     "title": "Previous: Goals",
+     "text": "",
      "to": "goals",
      "x": 80.58,
-     "y": 26.97,
+     "y": 27.6,
      "w": 4.82,
-     "h": 1.82
+     "h": 1.86
     },
     {
+     "title": "Next: Space",
+     "text": "",
      "to": "space",
      "x": 85.95,
-     "y": 26.97,
+     "y": 27.6,
      "w": 5.02,
-     "h": 1.82
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.7,
-     "w": 6.14,
-     "h": 1.99
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 28.3,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 31.37,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 34.45,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 37.53,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 40.6,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 43.68,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 46.76,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 49.84,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 52.91,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 55.99,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 59.07,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 62.14,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 65.22,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 68.3,
-     "w": 14.31,
-     "h": 2.8
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 25.22,
-     "w": 14.31,
-     "h": 2.8
+     "h": 1.86
     }
    ]
   },
@@ -1229,13 +901,73 @@
    "height": 1273,
    "hotspots": [
     {
+     "title": "Space",
+     "text": "How full each drive is, the biggest folders, and what's flagged to watch.",
+     "x": 14.17,
+     "y": 33.44,
+     "w": 6.39,
+     "h": 1.57
+    },
+    {
+     "title": "Scan now",
+     "text": "Measures each drive and its biggest folders.",
+     "x": 15.35,
+     "y": 43.9,
+     "w": 5.54,
+     "h": 2.04
+    },
+    {
+     "title": "Drives",
+     "text": "How full each drive is.",
+     "x": 53.68,
+     "y": 47.28,
+     "w": 35.35,
+     "h": 1.65
+    },
+    {
+     "title": "Watch list",
+     "text": "Folders that grew a lot since the last scan.",
+     "x": 15.35,
+     "y": 59.85,
+     "w": 74.44,
+     "h": 1.41
+    },
+    {
+     "title": "Cleanup candidates",
+     "text": "Folders that can be rebuilt or are old installers and backups, rated by how safe they are to remove.",
+     "x": 15.35,
+     "y": 64.7,
+     "w": 74.44,
+     "h": 1.41
+    },
+    {
+     "title": "Biggest folders",
+     "text": "The largest folders, with their newest file and file count.",
+     "x": 15.35,
+     "y": 72.46,
+     "w": 74.44,
+     "h": 1.41
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 31.83,
+     "w": 2.92,
+     "h": 51.53
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 24.21,
      "w": 4.29,
      "h": 2.04
     },
     {
+     "title": "Previous: CMS",
+     "text": "",
      "to": "cms",
      "x": 81.44,
      "y": 30.29,
@@ -1243,123 +975,13 @@
      "h": 2.04
     },
     {
+     "title": "Next: Time",
+     "text": "",
      "to": "time",
      "x": 86.42,
      "y": 30.29,
      "w": 4.55,
      "h": 2.04
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.79,
-     "w": 6.14,
-     "h": 2.24
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 31.79,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 35.24,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 38.7,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 42.16,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 45.61,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 49.07,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 52.52,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 55.98,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 59.44,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 62.89,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 66.35,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 69.81,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 73.26,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 76.72,
-     "w": 14.31,
-     "h": 3.14
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 28.33,
-     "w": 14.31,
-     "h": 3.14
     }
    ]
   },
@@ -1371,13 +993,65 @@
    "height": 2155,
    "hotspots": [
     {
+     "title": "Time",
+     "text": "Logged time: totals, entries and the log form, plus session hours this week.",
+     "x": 14.17,
+     "y": 19.75,
+     "w": 4.95,
+     "h": 0.93
+    },
+    {
+     "title": "Totals",
+     "text": "Time logged today, in the last 7 days and in the last 30.",
+     "x": 16.11,
+     "y": 26.35,
+     "w": 22.92,
+     "h": 0.87
+    },
+    {
+     "title": "Log time",
+     "text": "Project, how long, which day, an optional work code and CMS project, and a note.",
+     "x": 15.35,
+     "y": 42.84,
+     "w": 5.29,
+     "h": 1.21
+    },
+    {
+     "title": "Work codes",
+     "text": "Pulls the list of work codes, each shown with its Jira key and summary.",
+     "x": 21.9,
+     "y": 50.4,
+     "w": 9.28,
+     "h": 1.21
+    },
+    {
+     "title": "Entries",
+     "text": "Each entry with its project and code. Edit or delete one until it's been sent at the end of the day.",
+     "x": 15.35,
+     "y": 66.6,
+     "w": 74.44,
+     "h": 0.84
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 18.8,
+     "w": 2.92,
+     "h": 30.44
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 14.3,
      "w": 4.29,
      "h": 1.21
     },
     {
+     "title": "Previous: Space",
+     "text": "",
      "to": "space",
      "x": 79.78,
      "y": 17.9,
@@ -1385,123 +1059,13 @@
      "h": 1.21
     },
     {
+     "title": "Next: Catalog",
+     "text": "",
      "to": "catalog",
      "x": 85.36,
      "y": 17.9,
      "w": 5.61,
      "h": 1.21
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.46,
-     "w": 6.14,
-     "h": 1.32
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 18.78,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 20.82,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 22.86,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 24.9,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 26.94,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 28.99,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 31.03,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 33.07,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 35.11,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 37.15,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 39.19,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 41.24,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 43.28,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 45.32,
-     "w": 14.31,
-     "h": 1.86
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 16.74,
-     "w": 14.31,
-     "h": 1.86
     }
    ]
   },
@@ -1513,13 +1077,57 @@
    "height": 1751,
    "hotspots": [
     {
+     "title": "Catalog",
+     "text": "Links, snippets, docs and tools you want to find again.",
+     "x": 14.17,
+     "y": 24.31,
+     "w": 8.32,
+     "h": 1.14
+    },
+    {
+     "title": "Add to catalog",
+     "text": "A link, snippet, doc, tool or reference, with tags and a project.",
+     "x": 15.35,
+     "y": 42.13,
+     "w": 7.81,
+     "h": 1.48
+    },
+    {
+     "title": "A catalog item",
+     "text": "What it is, where it points, its kind, tags, project and links.",
+     "x": 27.75,
+     "y": 44.76,
+     "w": 8.73,
+     "h": 1.28
+    },
+    {
+     "title": "Search and filters",
+     "text": "Find items by text, kind, Jira project, Jira code, goal or group.",
+     "x": 15.35,
+     "y": 29.88,
+     "w": 12.5,
+     "h": 2.08
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 23.14,
+     "w": 2.92,
+     "h": 37.46
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 17.6,
      "w": 4.29,
      "h": 1.48
     },
     {
+     "title": "Previous: Time",
+     "text": "",
      "to": "time",
      "x": 80.74,
      "y": 22.02,
@@ -1527,123 +1135,13 @@
      "h": 1.48
     },
     {
+     "title": "Next: Digest",
+     "text": "",
      "to": "digest",
      "x": 85.84,
      "y": 22.02,
      "w": 5.13,
      "h": 1.48
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.57,
-     "w": 6.14,
-     "h": 1.63
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 23.11,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 25.62,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 28.13,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 30.65,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 33.16,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 35.67,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 38.19,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 40.7,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 43.21,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 45.72,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 48.24,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 50.75,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 53.26,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 55.78,
-     "w": 14.31,
-     "h": 2.28
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 20.6,
-     "w": 14.31,
-     "h": 2.28
     }
    ]
   },
@@ -1652,140 +1150,90 @@
    "title": "Digest",
    "caption": "Your email, calendar and tasks across accounts.",
    "image": "screens/digest.png",
-   "height": 1449,
+   "height": 1430,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 21.27,
-     "w": 4.29,
-     "h": 1.79
+     "title": "Digest",
+     "text": "Your email, calendar and tasks across accounts: unread mail, what's coming up and what's due.",
+     "x": 14.17,
+     "y": 29.77,
+     "w": 6.75,
+     "h": 1.4
     },
     {
+     "title": "Views",
+     "text": "Email, calendar and reminders across accounts.",
+     "x": 25.49,
+     "y": 39.36,
+     "w": 3.78,
+     "h": 1.82
+    },
+    {
+     "title": "Time range",
+     "text": "Today, three days, this week, two weeks, or a custom range.",
+     "x": 50.12,
+     "y": 39.36,
+     "w": 5.69,
+     "h": 1.82
+    },
+    {
+     "title": "Review one at a time",
+     "text": "Goes through what needs action one item at a time.",
+     "x": 15.35,
+     "y": 42.02,
+     "w": 12.04,
+     "h": 1.82
+    },
+    {
+     "title": "Needs action",
+     "text": "Overdue reminders and anything due soon.",
+     "x": 16.25,
+     "y": 45.17,
+     "w": 6.63,
+     "h": 1.18
+    },
+    {
+     "title": "Email actions",
+     "text": "Reply later, star, archive or mark as spam, right from the list.",
+     "x": 16.25,
+     "y": 74.74,
+     "w": 6.76,
+     "h": 1.82
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 28.33,
+     "w": 2.92,
+     "h": 45.87
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 21.55,
+     "w": 4.29,
+     "h": 1.82
+    },
+    {
+     "title": "Previous: Catalog",
+     "text": "",
      "to": "catalog",
      "x": 78.67,
-     "y": 26.61,
+     "y": 26.97,
      "w": 5.61,
-     "h": 1.79
+     "h": 1.82
     },
     {
+     "title": "Next: Captures",
+     "text": "",
      "to": "captures",
      "x": 84.84,
-     "y": 26.61,
+     "y": 26.97,
      "w": 6.13,
-     "h": 1.79
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.69,
-     "w": 6.14,
-     "h": 1.97
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 27.93,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 30.96,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 34.0,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 37.04,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 40.07,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 43.11,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 46.14,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 49.18,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 52.22,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 55.25,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 58.29,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 61.33,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 64.36,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 67.4,
-     "w": 14.31,
-     "h": 2.76
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 24.89,
-     "w": 14.31,
-     "h": 2.76
+     "h": 1.82
     }
    ]
   },
@@ -1794,140 +1242,74 @@
    "title": "Captures",
    "caption": "Phone notes, as cards with their tags.",
    "image": "screens/captures.png",
-   "height": 1090,
+   "height": 1134,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 28.27,
-     "w": 4.29,
-     "h": 2.39
+     "title": "Captures",
+     "text": "Notes captured on your phone, as cards with their tags.",
+     "x": 14.17,
+     "y": 37.53,
+     "w": 9.43,
+     "h": 1.76
     },
     {
+     "title": "A capture",
+     "text": "A note sent from a phone, with its tags. Tags that match a project link it.",
+     "x": 35.03,
+     "y": 62.73,
+     "w": 16.28,
+     "h": 1.85
+    },
+    {
+     "title": "Complete",
+     "text": "Marks it done.",
+     "x": 16.25,
+     "y": 64.25,
+     "w": 6.3,
+     "h": 2.29
+    },
+    {
+     "title": "Tag",
+     "text": "Adds a tag.",
+     "x": 22.97,
+     "y": 64.25,
+     "w": 3.6,
+     "h": 2.29
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 35.73,
+     "w": 2.92,
+     "h": 57.85
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 27.17,
+     "w": 4.29,
+     "h": 2.29
+    },
+    {
+     "title": "Previous: Digest",
+     "text": "",
      "to": "digest",
      "x": 80.01,
-     "y": 35.38,
+     "y": 34.01,
      "w": 5.13,
-     "h": 2.39
+     "h": 2.29
     },
     {
+     "title": "Next: Library",
+     "text": "",
      "to": "library",
      "x": 85.69,
-     "y": 35.38,
+     "y": 34.01,
      "w": 5.28,
-     "h": 2.39
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.92,
-     "w": 6.14,
-     "h": 2.61
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 37.12,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 41.16,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 45.2,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 49.23,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 53.27,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 57.31,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 61.34,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 65.38,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 69.42,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 73.45,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 77.49,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 81.53,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 85.56,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 89.6,
-     "w": 14.31,
-     "h": 3.67
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 33.09,
-     "w": 14.31,
-     "h": 3.67
+     "h": 2.29
     }
    ]
   },
@@ -1939,13 +1321,57 @@
    "height": 1150,
    "hotspots": [
     {
+     "title": "Library",
+     "text": "Sources you follow (papers, sites, files) and whether each is due for a check.",
+     "x": 14.17,
+     "y": 37.01,
+     "w": 7.76,
+     "h": 1.74
+    },
+    {
+     "title": "Sources",
+     "text": "Sites, papers and folders you follow, and whether each is due for a check.",
+     "x": 15.62,
+     "y": 45.84,
+     "w": 4.78,
+     "h": 2.26
+    },
+    {
+     "title": "Papers",
+     "text": "Reading lists built from a set of papers, with suggestions to accept or dismiss.",
+     "x": 20.54,
+     "y": 45.84,
+     "w": 7.82,
+     "h": 2.26
+    },
+    {
+     "title": "A source",
+     "text": "Its kind, tags, last check and whether it changed. Open it to browse its files.",
+     "x": 15.35,
+     "y": 69.79,
+     "w": 6.45,
+     "h": 1.48
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 35.23,
+     "w": 2.92,
+     "h": 57.04
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 26.79,
      "w": 4.29,
      "h": 2.26
     },
     {
+     "title": "Previous: Captures",
+     "text": "",
      "to": "captures",
      "x": 78.97,
      "y": 33.53,
@@ -1953,123 +1379,13 @@
      "h": 2.26
     },
     {
+     "title": "Next: Tokens",
+     "text": "",
      "to": "tokens",
      "x": 85.65,
      "y": 33.53,
      "w": 5.32,
      "h": 2.26
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.87,
-     "w": 6.14,
-     "h": 2.48
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 35.19,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 39.01,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 42.84,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 46.66,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 50.49,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 54.32,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 58.14,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 61.97,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 65.79,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 69.62,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 73.45,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 77.27,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 81.1,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 84.93,
-     "w": 14.31,
-     "h": 3.48
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 31.36,
-     "w": 14.31,
-     "h": 3.48
     }
    ]
   },
@@ -2081,13 +1397,49 @@
    "height": 1257,
    "hotspots": [
     {
+     "title": "Tokens",
+     "text": "Claude Code sessions with their messages, helper agents and premium use.",
+     "x": 14.17,
+     "y": 33.86,
+     "w": 7.48,
+     "h": 1.59
+    },
+    {
+     "title": "Totals",
+     "text": "Tokens used today, in the last 7 days and in the last 30.",
+     "x": 16.11,
+     "y": 42.33,
+     "w": 22.92,
+     "h": 1.49
+    },
+    {
+     "title": "A session",
+     "text": "One AI coding session: when, which project, and how many tokens went in, came out and were cached.",
+     "x": 28.56,
+     "y": 66.64,
+     "w": 11.93,
+     "h": 1.35
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 32.23,
+     "w": 2.92,
+     "h": 52.19
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
      "to": "map",
-     "x": 25.56,
+     "x": 14.17,
      "y": 24.51,
      "w": 4.29,
      "h": 2.07
     },
     {
+     "title": "Previous: Library",
+     "text": "",
      "to": "library",
      "x": 76.74,
      "y": 30.68,
@@ -2095,123 +1447,13 @@
      "h": 2.07
     },
     {
+     "title": "Next: Component kit",
+     "text": "",
      "to": "kit",
      "x": 82.57,
      "y": 30.68,
      "w": 8.4,
      "h": 2.07
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.8,
-     "w": 6.14,
-     "h": 2.27
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 32.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 35.69,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 39.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 42.69,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 46.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 49.69,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 53.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 56.69,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 60.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 63.69,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 67.19,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 70.7,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 74.2,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 77.7,
-     "w": 14.31,
-     "h": 3.18
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 28.69,
-     "w": 14.31,
-     "h": 3.18
     }
    ]
   },
@@ -2220,140 +1462,114 @@
    "title": "Component kit",
    "caption": "Buttons, badges, forms and other building blocks, plus settings and the contrast check.",
    "image": "screens/kit.png",
-   "height": 2116,
+   "height": 2054,
    "hotspots": [
     {
-     "to": "map",
-     "x": 25.56,
-     "y": 14.56,
-     "w": 4.29,
-     "h": 1.23
+     "title": "Settings menu + layout",
+     "text": "Choose panels, their order and width, the summary line and the filter pills. Save or load a settings file.",
+     "x": 14.17,
+     "y": 20.72,
+     "w": 19.12,
+     "h": 0.97
     },
     {
+     "title": "Buttons",
+     "text": "Default, primary, small, quiet, danger and disabled.",
+     "x": 14.17,
+     "y": 27.49,
+     "w": 7.1,
+     "h": 0.97
+    },
+    {
+     "title": "Badges, status + chips",
+     "text": "Small labels for state. Status always pairs a symbol with a word.",
+     "x": 53.12,
+     "y": 27.49,
+     "w": 18.15,
+     "h": 0.97
+    },
+    {
+     "title": "Form fields",
+     "text": "Text, date, select, long text and checkbox inputs.",
+     "x": 14.17,
+     "y": 36.61,
+     "w": 9.45,
+     "h": 0.97
+    },
+    {
+     "title": "Sortable table",
+     "text": "Repo list; click a column header to sort.",
+     "x": 53.12,
+     "y": 36.61,
+     "w": 12.44,
+     "h": 0.97
+    },
+    {
+     "title": "Accordion",
+     "text": "Sections that open and close in place.",
+     "x": 14.17,
+     "y": 56.4,
+     "w": 8.7,
+     "h": 0.97
+    },
+    {
+     "title": "Dialog + toast",
+     "text": "A pop-up that asks before acting, and the short message that confirms it.",
+     "x": 40.14,
+     "y": 56.4,
+     "w": 11.57,
+     "h": 0.97
+    },
+    {
+     "title": "Empty state",
+     "text": "What a list shows when nothing matches.",
+     "x": 66.11,
+     "y": 56.4,
+     "w": 10.13,
+     "h": 0.97
+    },
+    {
+     "title": "Contrast check",
+     "text": "Live WCAG 2.2 AA results for this flavor's color pairs, both modes.",
+     "x": 14.17,
+     "y": 67.94,
+     "w": 13.43,
+     "h": 0.97
+    },
+    {
+     "title": "Side menu",
+     "text": "Jumps straight to any section, with its count. Folded to icons here; pin it open to see the names.",
+     "x": 9.51,
+     "y": 19.72,
+     "w": 2.92,
+     "h": 31.94
+    },
+    {
+     "title": "Back to the Map",
+     "text": "",
+     "to": "map",
+     "x": 14.17,
+     "y": 15.0,
+     "w": 4.29,
+     "h": 1.27
+    },
+    {
+     "title": "Previous: Tokens",
+     "text": "",
      "to": "tokens",
      "x": 79.31,
-     "y": 18.22,
+     "y": 18.78,
      "w": 5.32,
-     "h": 1.23
+     "h": 1.27
     },
     {
+     "title": "Next: Projects",
+     "text": "",
      "to": "projects",
      "x": 85.18,
-     "y": 18.22,
+     "y": 18.78,
      "w": 5.79,
-     "h": 1.23
-    },
-    {
-     "to": "display",
-     "x": 84.83,
-     "y": 0.47,
-     "w": 6.14,
-     "h": 1.35
-    },
-    {
-     "to": "projects",
-     "x": 9.51,
-     "y": 19.12,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "today",
-     "x": 9.51,
-     "y": 21.2,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "inbox",
-     "x": 9.51,
-     "y": 23.28,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "repos",
-     "x": 9.51,
-     "y": 25.36,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "goals",
-     "x": 9.51,
-     "y": 27.44,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "cms",
-     "x": 9.51,
-     "y": 29.52,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "space",
-     "x": 9.51,
-     "y": 31.6,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "time",
-     "x": 9.51,
-     "y": 33.68,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "catalog",
-     "x": 9.51,
-     "y": 35.76,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "digest",
-     "x": 9.51,
-     "y": 37.84,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "captures",
-     "x": 9.51,
-     "y": 39.92,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "library",
-     "x": 9.51,
-     "y": 42.0,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "tokens",
-     "x": 9.51,
-     "y": 44.08,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "kit",
-     "x": 9.51,
-     "y": 46.16,
-     "w": 14.31,
-     "h": 1.89
-    },
-    {
-     "to": "map",
-     "x": 9.51,
-     "y": 17.04,
-     "w": 14.31,
-     "h": 1.89
+     "h": 1.27
     }
    ]
   },
@@ -2365,6 +1581,16 @@
    "height": 2400,
    "hotspots": [
     {
+     "title": "Grid",
+     "text": "Every panel on one page.",
+     "x": 74.55,
+     "y": 4.48,
+     "w": 3.21,
+     "h": 1.08
+    },
+    {
+     "title": "Map",
+     "text": "One section at a time, from a map of all of them.",
      "to": "map",
      "x": 77.9,
      "y": 4.48,
@@ -2372,6 +1598,8 @@
      "h": 1.08
     },
     {
+     "title": "Classic",
+     "text": "Tabs in the classic dashboard's order.",
      "to": "classic",
      "x": 81.15,
      "y": 4.48,
@@ -2379,11 +1607,44 @@
      "h": 1.08
     },
     {
-     "to": "map",
-     "x": 84.83,
-     "y": 0.42,
-     "w": 6.14,
-     "h": 1.19
+     "title": "Theme",
+     "text": "Space, Cyberpunk or Goth.",
+     "x": 45.35,
+     "y": 2.48,
+     "w": 7.85,
+     "h": 1.42
+    },
+    {
+     "title": "Style",
+     "text": "Four styles for each theme.",
+     "x": 58.01,
+     "y": 2.48,
+     "w": 12.15,
+     "h": 1.42
+    },
+    {
+     "title": "Intensity",
+     "text": "Subtle, medium or full. Full turns on each style's animation.",
+     "x": 76.39,
+     "y": 2.48,
+     "w": 12.33,
+     "h": 1.42
+    },
+    {
+     "title": "Mode",
+     "text": "Light, dark, or follow the device.",
+     "x": 44.95,
+     "y": 4.31,
+     "w": 10.76,
+     "h": 1.42
+    },
+    {
+     "title": "Motion",
+     "text": "Off, gentle or full.",
+     "x": 60.41,
+     "y": 6.15,
+     "w": 10.4,
+     "h": 1.42
     }
    ]
   },
@@ -2395,6 +1656,16 @@
    "height": 2400,
    "hotspots": [
     {
+     "title": "Classic tabs",
+     "text": "The same sections as tabs, in the classic dashboard's order.",
+     "x": 9.03,
+     "y": 12.84,
+     "w": 81.94,
+     "h": 3.71
+    },
+    {
+     "title": "Display",
+     "text": "Switch back to Grid or Map, or pick a look.",
      "to": "display",
      "x": 84.83,
      "y": 0.42,

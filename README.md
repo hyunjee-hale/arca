@@ -14,7 +14,7 @@ This repo is a preview, not the tool. It holds screenshots with made-up projects
 
 The tour starts at the Map and then follows its sections in order: Projects (and a project, opened), Today and reports, Inbox, Repos, Goals, CMS, Space, Time, Catalog, Digest, Captures, Library, Tokens and the component kit. It ends with the layout switcher and the classic layout.
 
-Every clickable part of a screen has a number. Click it or type the number to go where it leads; the list under each screen says where each number goes. The arrow keys move between screens.
+Each screen's panels and main features are numbered. Click a number, type it, or pick it from the list above the screen to see what that part does and what it shows; parts that lead somewhere else have a "Go to" button. The arrow keys move between screens.
 
 **[See every look](https://hyunjee-hale.github.io/arca/themes.html)**: three themes (Space, Cyberpunk, Goth) with four styles each, shown dark, light and moving.
 
