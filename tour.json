@@ -1,0 +1,480 @@
+{
+ "width": 1440,
+ "screens": [
+  {
+   "id": "grid",
+   "title": "Projects at a glance",
+   "caption": "Every project folder in one place, with its status, next step and repo state. The doom box keeps one section in view.",
+   "image": "screens/grid.png",
+   "height": 2400,
+   "hotspots": [
+    {
+     "to": "project",
+     "x": 32.09,
+     "y": 17.96,
+     "w": 8.21,
+     "h": 1.08
+    },
+    {
+     "to": "inbox",
+     "x": 47.77,
+     "y": 9.83,
+     "w": 12.55,
+     "h": 1.23
+    },
+    {
+     "to": "display",
+     "x": 84.83,
+     "y": 0.42,
+     "w": 6.14,
+     "h": 1.19
+    }
+   ]
+  },
+  {
+   "id": "project",
+   "title": "A project, opened",
+   "caption": "Status, next step, to-dos, time logged, links to Jira codes and goals, and the project's history.",
+   "image": "screens/project.png",
+   "height": 2400,
+   "hotspots": [
+    {
+     "to": "map",
+     "x": 27.57,
+     "y": 49.99,
+     "w": 63.33,
+     "h": 2.96
+    },
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 18.69,
+     "w": 14.31,
+     "h": 1.67
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 29.69,
+     "w": 14.31,
+     "h": 1.67
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 31.53,
+     "w": 14.31,
+     "h": 1.67
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 20.53,
+     "w": 14.31,
+     "h": 1.67
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 26.03,
+     "w": 14.31,
+     "h": 1.67
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 15.03,
+     "w": 14.31,
+     "h": 1.67
+    }
+   ]
+  },
+  {
+   "id": "display",
+   "title": "Layouts and looks",
+   "caption": "Switch between Grid, Map and Classic layouts and pick a look.",
+   "image": "screens/display.png",
+   "height": 2400,
+   "hotspots": [
+    {
+     "to": "map",
+     "x": 77.9,
+     "y": 4.48,
+     "w": 3.12,
+     "h": 1.08
+    },
+    {
+     "to": "classic",
+     "x": 81.15,
+     "y": 4.48,
+     "w": 4.23,
+     "h": 1.08
+    },
+    {
+     "to": "grid",
+     "x": 74.55,
+     "y": 4.48,
+     "w": 3.21,
+     "h": 1.08
+    },
+    {
+     "to": "grid",
+     "x": 84.83,
+     "y": 0.42,
+     "w": 6.14,
+     "h": 1.19
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "title": "The Map",
+   "caption": "Each area of the tracker as a node, with its count and status. Pick one to open it.",
+   "image": "screens/map.png",
+   "height": 1139,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 42.57,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "to": "time",
+     "x": 74.79,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "to": "catalog",
+     "x": 26.46,
+     "y": 65.68,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "to": "inbox",
+     "x": 58.68,
+     "y": 34.36,
+     "w": 15.28,
+     "h": 13.17
+    },
+    {
+     "to": "cms",
+     "x": 42.57,
+     "y": 48.59,
+     "w": 15.28,
+     "h": 16.04
+    },
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 39.39,
+     "w": 14.31,
+     "h": 3.51
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 62.57,
+     "w": 14.31,
+     "h": 3.51
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 66.43,
+     "w": 14.31,
+     "h": 3.51
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 43.25,
+     "w": 14.31,
+     "h": 3.51
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 54.84,
+     "w": 14.31,
+     "h": 3.51
+    }
+   ]
+  },
+  {
+   "id": "today",
+   "title": "Today and Plan My Day",
+   "caption": "Pick today's tasks from to-dos, next steps, the inbox, goals and Jira codes; carry unfinished ones forward.",
+   "image": "screens/today.png",
+   "height": 2080,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 21.57,
+     "w": 14.31,
+     "h": 1.92
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 34.26,
+     "w": 14.31,
+     "h": 1.92
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 36.38,
+     "w": 14.31,
+     "h": 1.92
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 23.68,
+     "w": 14.31,
+     "h": 1.92
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 30.03,
+     "w": 14.31,
+     "h": 1.92
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 17.34,
+     "w": 14.31,
+     "h": 1.92
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "title": "Time",
+   "caption": "Log time against a project and a work code; see the week's total.",
+   "image": "screens/time.png",
+   "height": 2155,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 20.82,
+     "w": 14.31,
+     "h": 1.86
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 33.07,
+     "w": 14.31,
+     "h": 1.86
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 35.11,
+     "w": 14.31,
+     "h": 1.86
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 22.86,
+     "w": 14.31,
+     "h": 1.86
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 28.99,
+     "w": 14.31,
+     "h": 1.86
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 16.74,
+     "w": 14.31,
+     "h": 1.86
+    }
+   ]
+  },
+  {
+   "id": "catalog",
+   "title": "Catalog",
+   "caption": "Links, snippets, docs and tools worth finding again, filtered by Jira project, code, goal or group.",
+   "image": "screens/catalog.png",
+   "height": 1751,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 25.62,
+     "w": 14.31,
+     "h": 2.28
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 40.7,
+     "w": 14.31,
+     "h": 2.28
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 43.21,
+     "w": 14.31,
+     "h": 2.28
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 28.13,
+     "w": 14.31,
+     "h": 2.28
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 35.67,
+     "w": 14.31,
+     "h": 2.28
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 20.6,
+     "w": 14.31,
+     "h": 2.28
+    }
+   ]
+  },
+  {
+   "id": "inbox",
+   "title": "Inbox",
+   "caption": "Brain-dump items waiting to be sorted into to-dos, notes, goals or the catalog.",
+   "image": "screens/inbox.png",
+   "height": 1090,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 41.16,
+     "w": 14.31,
+     "h": 3.67
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 65.38,
+     "w": 14.31,
+     "h": 3.67
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 69.42,
+     "w": 14.31,
+     "h": 3.67
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 45.2,
+     "w": 14.31,
+     "h": 3.67
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 57.31,
+     "w": 14.31,
+     "h": 3.67
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 33.09,
+     "w": 14.31,
+     "h": 3.67
+    }
+   ]
+  },
+  {
+   "id": "cms",
+   "title": "CMS projects",
+   "caption": "Projects on each CMS server, grouped copies and notes.",
+   "image": "screens/cms.png",
+   "height": 1432,
+   "hotspots": [
+    {
+     "to": "today",
+     "x": 9.51,
+     "y": 31.33,
+     "w": 14.31,
+     "h": 2.79
+    },
+    {
+     "to": "time",
+     "x": 9.51,
+     "y": 49.77,
+     "w": 14.31,
+     "h": 2.79
+    },
+    {
+     "to": "catalog",
+     "x": 9.51,
+     "y": 52.84,
+     "w": 14.31,
+     "h": 2.79
+    },
+    {
+     "to": "inbox",
+     "x": 9.51,
+     "y": 34.4,
+     "w": 14.31,
+     "h": 2.79
+    },
+    {
+     "to": "cms",
+     "x": 9.51,
+     "y": 43.62,
+     "w": 14.31,
+     "h": 2.79
+    },
+    {
+     "to": "map",
+     "x": 9.51,
+     "y": 25.18,
+     "w": 14.31,
+     "h": 2.79
+    }
+   ]
+  },
+  {
+   "id": "classic",
+   "title": "Classic layout",
+   "caption": "The same data in the classic dashboard's tabs.",
+   "image": "screens/classic.png",
+   "height": 2400,
+   "hotspots": [
+    {
+     "to": "display",
+     "x": 84.83,
+     "y": 0.42,
+     "w": 6.14,
+     "h": 1.19
+    }
+   ]
+  }
+ ]
+}

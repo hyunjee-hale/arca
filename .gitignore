@@ -1,0 +1,17 @@
+# Internal notes: kept next to the public files, never published
+arca-concept.md
+internal/
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Secrets (none belong here)
+.env
+.env.*
+*_secret*
+*_credentials*
+*.pem
+*.key

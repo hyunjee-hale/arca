@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ARCA Tour</title>
+<meta name="description" content="A click-through tour of ARCA, a dashboard for keeping track of every project folder. Screenshots with made-up data.">
+<style>
+  :root {
+    --ground: #0e0d13; --bar: #17151f; --ink: #ecebf3; --muted: #a8a4b8; --line: #2e2a3d; --accent: #b48cff; --spot: rgb(180 140 255 / .28);
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bar); border-bottom: 1px solid var(--line); }
+  .bar { max-width: 1440px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+  .brand { font-weight: 700; letter-spacing: .06em; }
+  .brand small { font-weight: 400; letter-spacing: 0; color: var(--muted); margin-left: 6px; }
+  .where { flex: 1 1 320px; min-width: 0; }
+  .where h1 { font-size: 16px; margin: 0; text-wrap: balance; }
+  .where p { margin: 0; color: var(--muted); font-size: 13.5px; }
+  .nav { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  button, select { font: inherit; font-size: 13.5px; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  button:hover, select:hover { border-color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  select { background: var(--bar); }
+  .count { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; min-width: 4.5em; text-align: center; }
+  .note { max-width: 1440px; margin: 0 auto; padding: 8px 16px 0; color: var(--muted); font-size: 13px; }
+  main { max-width: 1440px; margin: 0 auto; padding-block: 10px 40px; padding-inline: 16px; }
+  .stage { position: relative; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; line-height: 0; }
+  .stage img { width: 100%; height: auto; display: block; }
+  .spot { position: absolute; border: 0; padding: 0; border-radius: 6px; background: transparent; cursor: pointer; }
+  .spot:hover, .spot:focus-visible { background: var(--spot); box-shadow: 0 0 0 2px var(--accent); outline: none; }
+  .stage.flash .spot { background: var(--spot); box-shadow: 0 0 0 2px var(--accent); transition: background .15s; }
+  .hint { color: var(--muted); font-size: 13px; margin: 10px 0 0; line-height: 1.5; }
+  @media (prefers-reduced-motion: reduce) { .stage.flash .spot { transition: none; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">ARCA <small>click-through tour</small></div>
+    <div class="where" aria-live="polite"><h1 id="title"></h1><p id="caption"></p></div>
+    <div class="nav">
+      <button type="button" id="prev" aria-label="Previous screen">←</button>
+      <span class="count" id="count"></span>
+      <button type="button" id="next" aria-label="Next screen">→</button>
+      <select id="pick" aria-label="Go to a screen"></select>
+    </div>
+  </div>
+  <p class="note">A work in progress, shown as screenshots with made-up projects and data. Click the highlighted parts of each screen to move around, or use the arrows.</p>
+</header>
+<main>
+  <div class="stage" id="stage"><img id="shot" alt=""></div>
+  <p class="hint">Click anywhere else on the screen to see what's clickable. Arrow keys move between screens.</p>
+</main>
+<script>
+  (async () => {
+    const tour = await (await fetch("tour.json")).json(), S = tour.screens, ids = S.map(s => s.id);
+    const $ = id => document.getElementById(id), stage = $("stage"), shot = $("shot");
+    $("pick").innerHTML = S.map((s, i) => `<option value="${s.id}">${i + 1}. ${s.title}</option>`).join("");
+    let cur = 0;
+    function show(i, push = true) {
+      cur = (i + S.length) % S.length; const s = S[cur];
+      shot.src = s.image; shot.alt = `${s.title}: ${s.caption}`; shot.width = tour.width; shot.height = s.height;
+      $("title").textContent = s.title; $("caption").textContent = s.caption; $("count").textContent = `${cur + 1} / ${S.length}`; $("pick").value = s.id;
+      stage.querySelectorAll(".spot").forEach(b => b.remove());
+      for (const h of s.hotspots) {
+        const b = document.createElement("button"), to = S.find(x => x.id === h.to);
+        b.className = "spot"; b.type = "button"; b.dataset.to = h.to; b.setAttribute("aria-label", `Go to ${to ? to.title : h.to}`);
+        Object.assign(b.style, { left: h.x + "%", top: h.y + "%", width: h.w + "%", height: h.h + "%" });
+        stage.append(b);
+      }
+      if (push) history.replaceState(null, "", "#" + s.id);
+      window.scrollTo(0, 0);
+    }
+    stage.addEventListener("click", e => {
+      const b = e.target.closest(".spot");
+      if (b) return show(ids.indexOf(b.dataset.to));
+      stage.classList.add("flash"); setTimeout(() => stage.classList.remove("flash"), 700);
+    });
+    $("prev").onclick = () => show(cur - 1); $("next").onclick = () => show(cur + 1);
+    $("pick").onchange = e => show(ids.indexOf(e.target.value));
+    addEventListener("keydown", e => { if (e.target.closest("select")) return; if (e.key === "ArrowRight") show(cur + 1); if (e.key === "ArrowLeft") show(cur - 1); });
+    S.forEach(s => { const im = new Image(); im.src = s.image; });   // preload, so moving between screens is instant
+    show(Math.max(0, ids.indexOf(location.hash.slice(1))), false);
+  })();
+</script>
+</body>
+</html>
